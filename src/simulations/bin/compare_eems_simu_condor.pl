@@ -17,7 +17,7 @@ while(<IN>){
     my $child = $cols[3];
     my $eems  = $cols[4];
 
-    $compeems{($site+1)."-".$child}{"simu"} = $eems;
+    $compeems{($site+1)."-".$child}{"simu"} += $eems;
 }
 close(IN);
 
@@ -30,7 +30,7 @@ while(<IN>){
     my $child = $cols[3];
     my $eems  = $cols[5];
 
-    $compeems{$site."-".$child}{"condor"} = $eems;
+    $compeems{$site."-".$child}{"condor"} += $eems;
 }
 close(IN);
 
