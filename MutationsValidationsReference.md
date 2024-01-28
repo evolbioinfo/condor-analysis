@@ -23,7 +23,7 @@ We studied mutations on the reverse transcriptase, where DRMs are numerous, dive
 
 The mutation M184V, which is the most frequent, is observed in 378 and 5 sequences with treated and naive status, respectively, corresponding to relative frequencies of 66% and 0.4%. It is expected that such a DRM will be found by any reasonable convergence detection method. In contrast, rare DRMs are much more difficult to detect. For example, DRM Y188L is found in only 21 sequences (all from treated patients), which corresponds to 3.7% of treated sequences and 1% of all sequences.
 
-In our dataset, all DRMs present in at least 10 sequences emerged frequently (between 9 and 225 times, Sup. Tab. S7).
+We tested all mutations present in at least 10 sequences and showing at least 3 EEMs. In fact, in our dataset, all DRMs present in at least 10 sequences emerged frequently (between 9 and 225 times, Sup. Tab. S7).
 
 Our dataset contains several examples of DRMs involving highly exchangeable amino acids (some of which are TP detected by ConDor: K70R, M41L and, almost, V90I) demonstrating that convergent mutations with effects on phenotype can occur even between amino acids sharing highly similar biochemical properties. Moreover, detailed results show that DRMs occur in both fast and slowly evolving positions (e.g., M184V and V90I with evolutionary rates of 3.27 and 0.17, respectively, meaning that M184V evolves ~20 times faster than V90I; Sup. Tab. S7).
 
