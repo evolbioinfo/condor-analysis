@@ -3,11 +3,13 @@
 
 ### Marie MOREL, Anna ZHUKOVA, Frédéric LEMOINE and Olivier GASCUEL
 
-In this repository you can find data and files used in the ConDor paper. \
-ConDor is a workflow to detect convergent evolution at the scale of the mutation in protein alignments. 
-It is available from a web service located at https://condor.pasteur.cloud/
+This repository contains data and files used in the article describing ConDor. ConDor is a workflow developed to detect convergent evolution in amino acid alignments. 
 
-## Help
+Other resources:
+1. ConDor is also available as a web service ([https://condor.pasteur.cloud](https://condor.pasteur.cloud)).
+2. The code of the ConDor workflow can be found in the [condor](https://github.com/evolbioinfo/condor) repository.
+
+## Content of the repository
 * data folder: data described in the Materials and Methods section, including sequence alignments and phylogenetic trees.  
 * results folder: csv files corresponding to the outputs provided by ConDor, as well as the results from FADE and PCOC.
     * __Note__: For Rhodopsin data, amino-acid positions presented in results files `results/rhodopsin` have a -12 offset compared to numbering presented in the manuscript.
